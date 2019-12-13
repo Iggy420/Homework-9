@@ -8,7 +8,9 @@
     "dotenv": "^8.2.0",
     "electron": "^7.1.4",
     "electron-html-to": "^2.6.0",
+    "html-pdf": "^2.2.0",
     "inquirer": "^7.0.0",
+    "jquery": "^3.4.1",
     "open": "^7.0.0"
   },
   "devDependencies": {},

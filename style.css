@@ -1,0 +1,31 @@
+.image {
+    text-align: center;
+    position: relative;
+}
+.login{
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+.repositories{
+    float: left;
+  width: 50%;
+    text-align: center;
+}
+.stars{
+    float: left;
+
+  width: 50%;
+    text-align: center;
+}
+.followers{
+    float: right;
+  width: 50%;
+    text-align: center;
+}
+.following{
+    float: right;
+  width: 50%;
+    text-align: center;
+}

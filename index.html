@@ -4,22 +4,37 @@
     <title>Javascript Fetch Api Example</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="style.css"/> -->
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
      <div class="container">
-        <div style="background-color:blue;color:white;" class="jumbotron">
-            <h1>Github Profile Generator</h1> 
+        <div style="background-color:rosybrown;color:black;" class="jumbotron">
+            <div>
+                <img src="${this.avatar_url}" />
+                <h2 class="login">${this.githubUserName}</h2>
+            </div>
+          <div >
+            <h2 class="bio">${this.bio}</h2>
           </div>
-          <div class="radio">
-            <label><input type="radio" value="male" name="gender" checked>Male</label>
+          <div class="row">
+          <div class="repositories">
+            <h2>Public repositories:${this.public_repos}</h2>
+            <h4>location:${this.location}</h4>
+            <a href="${this.html_url}">Github Page</a>
+            <h4>Github page:${this.html_url}</h4>
           </div>
-          <div class="radio">
-            <label><input type="radio" value="female" name="gender">Female</label>
+          <div class="followers">
+            <h2>Followers:${this.followers}</h2>
           </div>
-          <div class="radio">
-            <label><input type="radio" value="all" name="gender">All</label>
+        </div>
+        <div class="row">    
+          <div class="stars">
+              <h2>Github Stars:</h2>
+            </div>  
+          <div class="following">
+            <h2>Following:${this.following}</h2>
           </div>
+        </div>
      </div>
 
    </body>
@@ -30,22 +45,3 @@
   crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </html> 
-
- 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Github Profile Generator</title>
-
-</head>
-<body>
-    
-</body>
-<Script src="index.js">
-
-</Script>
-
-</html> -->
